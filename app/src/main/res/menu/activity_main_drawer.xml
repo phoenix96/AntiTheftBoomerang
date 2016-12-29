@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_nav_drawer"
+            android:icon="@drawable/house"
+            android:title="Home" />
+        <item
+            android:id="@+id/sms_nav_drawer"
+            android:icon="@drawable/envelope"
+            android:title="Sms settings" />
+        <item
+            android:id="@+id/app_nav_drawer"
+            android:icon="@drawable/paper_plane"
+            android:title="App permissions " />
+        <item
+            android:id="@+id/pat_nav_drawer"
+            android:icon="@drawable/photo_camera"
+            android:title="Password security settings" />
+        <item
+            android:id="@+id/signal_flare_nav_drawer"
+            android:icon="@drawable/placeholder"
+            android:title="Signal flare" />
+        <item android:title="Communicate">
+            <menu>
+                <item
+                    android:id="@+id/about_nav_drawer"
+                    android:icon="@drawable/avatar"
+                    android:title="About us" />
+                <item
+                    android:id="@+id/feedback_nav_drawer"
+                    android:icon="@drawable/feedback"
+                    android:title="Feedback" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

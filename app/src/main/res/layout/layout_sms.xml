@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#ffffff">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message options"
+        android:id="@+id/sms_textbox"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="#3b5998"
+        android:background="#ffffff"
+        android:clickable="false"
+        android:typeface="normal"
+        android:layout_weight="0.05"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/sms_b_icon"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10"
+        android:src="@drawable/envelope" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ringer Mode"
+        android:id="@+id/CheckBoxRingerMode"
+        android:layout_gravity="right"
+        android:focusableInTouchMode="false"
+        android:checked="false"
+        android:layout_weight="0.05"
+        android:background="#c6c8f7"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alarm"
+        android:id="@+id/CheckBoxAlarmMode"
+        android:layout_gravity="center_horizontal"
+        android:checked="false"
+        android:layout_weight="0.05"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Location"
+        android:id="@+id/CheckBoxGetLocation"
+        android:layout_gravity="center_horizontal"
+        android:checked="false"
+        android:layout_weight="0.05"
+        android:background="#c6c8f7"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.50"
+        android:background="#575e98" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:id="@+id/sms_settings_button"
+        android:layout_weight="0.025"
+        android:layout_gravity="bottom"
+        android:background="@drawable/buttonbackground"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        />
+
+</LinearLayout>

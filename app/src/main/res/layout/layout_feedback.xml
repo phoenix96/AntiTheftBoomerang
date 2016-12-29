@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="If you face any issue or want to request any new feature, please click the button below."
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_marginTop="20sp"
+        android:layout_weight="0.3" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Feedback"
+        android:id="@+id/feedback_button"
+        android:layout_weight="0.05"
+        android:layout_gravity="bottom"
+        android:background="@drawable/buttonbackground"
+        android:textColor="#ffffff"
+        android:textSize="17sp"/>
+</LinearLayout>

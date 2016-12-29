@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Password"
+        android:id="@+id/Sms_Settings_top_textview"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textColor="#3b5998"
+        android:layout_weight="0.05"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView3"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10"
+        android:src="@drawable/settings" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="Enter old password"
+        android:id="@+id/old_password"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="Enter new password"
+        android:id="@+id/new_password_sms"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Confirm new password"
+        android:ems="10"
+        android:id="@+id/new_password_sms_confirm"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.50" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:id="@+id/confirm_pass_sms"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.025"
+        android:background="@drawable/buttonbackground"
+        android:textColor="#ffffff"
+        android:textSize="17sp" />
+
+</LinearLayout>

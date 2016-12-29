@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <ImageView
+        android:id="@+id/apps_icon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_weight="2"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/apps_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/apps_paackage"
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:layout_weight="2"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center" />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/permfragment_listview"
+            android:layout_weight="3"
+            android:smoothScrollbar="true"
+            android:scrollingCache="true"
+            android:stackFromBottom="false"
+
+            android:fastScrollEnabled="false"
+
+            android:footerDividersEnabled="false"
+            android:drawSelectorOnTop="false"
+            android:listSelector="#176DF3E5" />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/uninstall"
+            android:id="@+id/uninstall"
+            android:onClick="onButtonClick"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/buttonbackground"
+            android:textColor="#ffffff" />
+
+</LinearLayout>

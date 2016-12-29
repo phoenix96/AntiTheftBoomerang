@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Rishabh Jain"
+        android:id="@+id/rishabh"
+        android:textSize="20dp"
+        android:layout_marginTop="10sp"
+        android:textAlignment="center"
+        android:layout_weight="0.10" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:id="@+id/rj"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10"
+        android:contentDescription="Rishabh" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Aditya Bakliwal"
+        android:id="@+id/aditya"
+        android:textSize="20dp"
+        android:layout_marginTop="15sp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:layout_weight="0.10" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:id="@+id/baks"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tarun Agarwal"
+        android:id="@+id/tarun"
+        android:textSize="20dp"
+        android:layout_marginTop="15sp"
+        android:layout_gravity="center_horizontal"
+        android:textIsSelectable="false"
+        android:textAlignment="center"
+        android:layout_weight="0.10" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:id="@+id/tj"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10" />
+</LinearLayout>

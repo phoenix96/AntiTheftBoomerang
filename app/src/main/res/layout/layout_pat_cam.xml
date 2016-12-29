@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password Security Settings"
+        android:id="@+id/tv_pat_cam"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="#3b5998"
+        android:background="#ffffff"
+        android:clickable="false"
+        android:typeface="normal"
+        android:layout_weight="0.05"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/pat_cam_icon"
+        android:layout_weight="0.1"
+        android:src="@drawable/photo_camera"
+        android:layout_gravity="center_horizontal" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password Security"
+        android:id="@+id/pat_cam_checkbox"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05"
+        android:checked="false"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#3b5998"
+        android:background="#c6c8f7" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pat_cam_input"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.25"
+        android:progress="0"
+        android:max="3"
+        android:indeterminate="false"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pat_cam_textbox"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_weight="0"
+        android:textIsSelectable="false" />
+</LinearLayout>
