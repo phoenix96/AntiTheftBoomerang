@@ -17,6 +17,6 @@ Features :
 3.) Send the battery levels of the phone when the battery is at 'x'%. This x can be between 5% to 15%, and this feature is called as Signal Flare. 
 
 
-<>UI/UX:
+<b>UI/UX:</b>
 
 1.) Uses logos, and navigation bar for easier usability!
