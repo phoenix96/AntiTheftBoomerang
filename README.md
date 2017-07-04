@@ -6,9 +6,9 @@ Software required : Android Studio.
 Just clone the repo, and place the folder in your projects and open it in android studio. Might have to change the package names accordingly.
 
 
-Login Setup : Firebase
+Login Setup : <b>Firebase</b>
 
-Features : 
+<b>Features : </b>
 
 1.) Captures the photo of a user, if he attempts to open the phone  'x' number of times. This 'x' can be set in the application itself. Requires support for multiple devices and a better UI.
 
