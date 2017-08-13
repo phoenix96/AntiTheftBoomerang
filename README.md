@@ -3,14 +3,14 @@
 Android Application, made as a minor project.
 
 Software required : Android Studio.
-Just clone the repo, and place the folder in your projects and open it in android studio. Might have to change the package names accordingly.
 
+Steps to make it work : Just clone the repository, and place the folder in your projects and open it in android studio. Might have to change the package names accordingly.
 
 Login Setup : <b>Firebase</b>
 
 <b>Features : </b>
 
-1.) Captures the photo of a user, if he attempts to open the phone  'x' number of times. This 'x' can be set in the application itself. Requires support for multiple devices and a better UI.
+1.) Captures the photo of a user, if he attempts to open the phone 'x' number of times. The 'x' can be set in the application itself. Requires support for multiple devices and a better UI.
 
 2.) Option to access the device via messages, to set the phone from sient mode to ringer mode, to start a loud alarm, or even get the location of the phone back via sms.
 
